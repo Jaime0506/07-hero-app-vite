@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 const HeroCard = ({ dataHero }) => {
     
-    const imagePath = `./assets/heroes/${dataHero.id}.jpg`
+    const imagePath = `./assets/${dataHero.id}.jpg`
 
     return (
         <div className="col animate__animated animate__fadeIn">

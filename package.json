@@ -1,7 +1,7 @@
 {
   "name": "heroes-app-vite",
   "private": true,
-  "homepage": "https://jaime0506.github.io/",
+  "homepage": "./",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

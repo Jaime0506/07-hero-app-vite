@@ -20,7 +20,7 @@ const HeroScreen = () => {
         publisher
     } = hero
 
-    const imagePath =  `/assets/heroes/${id}.jpg`
+    const imagePath =  `/assets/${id}.jpg`
 
     const handleReturn = () => {
         navigate(-1, {
