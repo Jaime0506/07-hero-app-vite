@@ -20,7 +20,7 @@ const HeroScreen = () => {
         publisher
     } = hero
 
-    const imagePath =  `/assets/${id}.jpg`
+    const imagePath =  `/07-hero-app-vite/assets/${id}.jpg`
 
     const handleReturn = () => {
         navigate(-1, {
