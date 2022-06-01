@@ -5,7 +5,7 @@ import DashBoardRoutes from "./DashBoardRoutes"
 
 const AppRouter = () => {
     return (
-        <BrowserRouter basename="https://jaime0506.github.io/07-hero-app-vite/">
+        <BrowserRouter basename="/07-hero-app-vite">
             <Routes>
                 <Route path="/login" element={<LoginScreen />} />
                 <Route path="/*" element={<DashBoardRoutes />} />
